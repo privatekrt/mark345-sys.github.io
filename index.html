@@ -136,12 +136,13 @@ Only one entry per person is allowed. Please ensure all details are accurate.
 <div class="box">
 <h2>Enter the Giveaway</h2>
 
-<form>action="https://formspree.io/f/mlgwrkzb" method="POST">
-<label>Full Name</label>
-<input type="text" required>
+<form action="https://formspree.io/f/mlgwrkzb" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" name="name" required>
 
-<label>Email Address</label>
-<input type="email" required>
+  <label for="email">Email:</label>
+  <input type="email" name="email" required> 
+    
 
 <label>Country</label>
 <select required>
